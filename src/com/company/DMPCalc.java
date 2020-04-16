@@ -54,7 +54,7 @@ public class DMPCalc extends Application {
 
 
         // CreateLabel
-        Label outputlabel = new Label("Please Choose");
+        Label outputlabel = new Label("Please Choose!");
 
         // Register  and event handler
         dormSelection.setOnAction(event ->{
