@@ -15,11 +15,14 @@ public class DMPCalc extends Application {
     public double mealPrice;
     public double dormPrice;
     public double totalPrice;
+    public String[] Dorms = {"Alen Hall", "Pike Hall", "Farthing Hall", "Universitie Suites"};
+    public double[] ListOfDormPrices = {1800,2200,2800,3000};
+    public String[] MealPlans = {"7 Meals", "14 Meals", "Unlimited"};
+    public double[] ListOfMealPrices = {600,1100,1800};
 
     public static void main(String[] args) {
         launch(args);
     }
-
 
     public void start(Stage primaryStage){
 
@@ -41,26 +44,36 @@ public class DMPCalc extends Application {
 
         //Combobxes for forms and food plan
         ComboBox<String> dormSelection = new ComboBox<>();
-        dormSelection.getItems().addAll("Alen Hall", "Pike Hall", "Farthing Hall", "Universitie Suites");
+        dormSelection.getItems().addAll(Dorms);
 
         ComboBox<String> foodSelection = new ComboBox<>();
-        foodSelection.getItems().addAll("7 Meals", "14 Meals", "Unlimited");
+        foodSelection.getItems().addAll(MealPlans);
 
         //Display total
         Label totatLabel = new Label("Total: $0.00");
 
 
         // CreateLabel
-        Label outputlabel = new Label("Select a Country");
+        Label outputlabel = new Label("Please Choose");
 
         // Register  and event handler
         dormSelection.setOnAction(event ->{
+            System.out.println("dormPrice = " + dormPrice);
+            for (int i = 0; i <Dorms.length; i++){
+                if (dormSelection.getValue() == Dorms[i]){
+                    dormPrice = ListOfDormPrices[i];
+                }
+                outputlabel.setText(String.valueOf(dormPrice));
+        }});
 
-            if (dormSelection.getValue() == "England"){
-                outputlabel.setText(String.valueOf(2+2));
-            }
+        foodSelection.setOnAction(event ->{
 
-        });
+            for (int i = 0; i <MealPlans.length; i++){
+                if (foodSelection.getValue() == MealPlans[i]){
+                    mealPrice = ListOfMealPrices[i];
+                }
+                outputlabel.setText(String.valueOf(dormPrice+mealPrice));
+            }});
 
         // Container Controls
         HBox header = new HBox(10,homeLabel);

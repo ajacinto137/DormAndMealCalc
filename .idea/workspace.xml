@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60f6aff2-870b-4fbd-a0ea-a9ef2f480d01" name="Default Changelist" comment="" />
+    <list default="true" id="60f6aff2-870b-4fbd-a0ea-a9ef2f480d01" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/DMPCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/DMPCalc.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +18,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aajxln4wqbxblSyu8pNH1jCUcv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -77,22 +86,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="801" y="265" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1586980977431" />
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1586996605390">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom" timestamp="1586998461873">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586996605390" />
-    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1586996605389">
+    <state width="1807" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1586998461873" />
+    <state width="1807" height="277" key="GridCell.Tab.0.center" timestamp="1586998461872">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586996605389" />
-    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1586996605389">
+    <state width="1807" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1586998461872" />
+    <state width="1807" height="277" key="GridCell.Tab.0.left" timestamp="1586998461872">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586996605389" />
-    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1586996605389">
+    <state width="1807" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1586998461872" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right" timestamp="1586998461872">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586996605389" />
+    <state width="1807" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1586998461872" />
     <state x="482" y="187" key="SettingsEditor" timestamp="1586994732772">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
